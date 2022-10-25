@@ -1,0 +1,156 @@
+*{
+  margin:0;
+  padding:0;
+}
+.menu{
+  height: 50px;
+  width: 100%;
+  padding: 5px 5px;
+  flex-direction: column;
+  float: left;
+  }
+#mensaje {
+  height: 50px;
+  float: right;  
+  padding: 5px 5px;
+  color: rgb(0, 0, 0);
+  padding-left: 700px;
+}
+#formulariologin{
+  text-align: center;
+}
+nav{
+  display:flex;
+  color:rgb(0, 0, 0);
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+ul{
+  margin-right: 10px;
+  width: 100%;
+}
+
+#nave {
+  float: left;
+  height: 50px;
+  padding: 5px 5px;
+  
+}
+#nave > ul {
+  margin: 0;
+  padding: 0;
+  display:flex;
+  list-style: none;
+}
+#nave >li{
+  margin-right: 30px;
+  padding-left: 20px;
+}
+#nave > ul li {
+  display: inline-block;
+}
+#bb{
+  padding-left: 2em;
+}
+.imagen{
+  width:66.66%;
+  float:left ;
+  display:block ;
+  background-color:silver;
+  border-radius:5px;
+}
+.formulario{
+  width:33.34%;
+  float:right ;
+  background-color:skyblue;
+  border-radius:5px;
+  padding-top: 10em;
+}
+.btn{
+  color:blue;
+  background-color:rgb(2, 24, 33);
+  border-radius:2px;
+  border:2px;
+}
+section{
+  display:flex;
+}
+.texto{
+  width:33.33%;
+  float:left ;
+  background-color:rgb(130, 113, 204);
+  border-radius:5px;
+}
+.img2{
+  width:33.33%;
+  float:center ;
+  background-color:yellow;
+  border-radius:5px;
+}
+.items{
+  width:33.33%;
+  float:right ;
+  display: flex;
+  background-color:silver;
+  border-radius:5px;
+  padding-top: 10em;
+}
+#aa{
+  list-style: none;
+  display: flex;
+  padding-left: 13em;
+}
+
+.img3{
+  width:33.33%;
+  float:left;
+  background-color:orange;
+  border-radius:5px;
+}
+.texto1{
+  width:33.33%;
+  float:center;
+  border-color:blue;
+  border:2px;
+  border-radius:5px;
+  background-color:silver;
+}
+.formulario1{
+  width:33.33%;
+  float:right ;
+  background-color:cyan;
+  border-radius:5px;
+  padding-top: 10em;
+}
+.cant, .cd, .ca{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.items:nth-child(2) {
+  height: 440px;
+}
+/* iconos */
+.bi-bootstrap-reboot {
+  color: blueviolet;  font-size: 20px;
+}
+.bi-coin{
+  color: blueviolet;  font-size: 20px;
+}
+.bi-emoji-smile-fill {
+  color: blueviolet;  font-size: 20px;
+}
+.bi-fire {
+  color: blueviolet; 
+  font-size: 20px;
+}
+.bi-heart-fill {
+  color: blueviolet; 
+  font-size: 20px;
+}
+
+#convertir {
+  margin-bottom: 10px;
+}

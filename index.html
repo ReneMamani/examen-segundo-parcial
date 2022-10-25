@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="css/estilo.css">
+  
+  <title>Examen</title>
+</head>
+<body>
+  <section>
+    <div class="menu">
+      <nav id="nave">
+        <ul>
+          <li id="bb">Inicio</li>
+          <li id="bb">Sobre Nosotros</li>
+          <li id="bb">Galeria</li>
+          <li id="bb">Contacto</li>
+          <li id="mensaje"></li>
+        </ul>
+      </nav>
+       
+    </div>  
+  </section>
+<section>
+    <div class="imagen">
+        <img src="img/ambiente-relajado.jpg" alt="300" width="1000" >
+    </div>
+    <div class="formulario">
+        <div>
+            <h2>Iniciar Sesion</h2>
+        </div><br>
+        <form id="formulariologin">
+          <input type="text" id="nombre_usuario" placeholder="Ingrese nombre usuario"/>
+          <div><br>
+          <button type="button" class="btn btn-primary" id="ingresar" onclick="iniciarSesion()">Ingresar</button>
+        </div>
+        </form>        
+    </div>
+</section>
+
+<section>
+    <div class="texto">
+        <p>La <b> Cantonata</b> abrió sus puertas en el año 1988, proponiendo un estilo de comida del norte de Italia, caracterizado por ser una alquimia de sabores, colores y sensaciones.
+          <br>
+        La característica de este lugar siempre fue brindar la combinación de dos ambientes; uno formal y elegante y otro informal y de vanguardia, expresaron las socias.
+          <br>
+        Se encuentra localizado en la esquina España y Mayor Rocha.</p>
+    </div>
+    <div class="img2">
+        <img src="img/cantonata.jpg" >
+    </div>
+    <div class="items">
+      
+        <ul>
+          <li id="aa"><i class="bi bi-bootstrap-reboot"></i>REINICIO</li>
+          <li id="aa"><i class="bi bi-coin"></i>DINERO</li>
+          <li id="aa"><i class="bi bi-emoji-smile-fill"></i> SONRIE</li>
+          <li id="aa"><i class="bi bi-fire"></i>FUEGO</li>
+          <li id="aa"><i class="bi bi-heart-fill"></i>CORAZON</li>         
+        </ul>
+    </div>
+</section>
+<section>
+    <div class="img3">
+        <img src="img/paprika.jpg">
+    </div>
+    <div class="texto1">
+        <p>Diez años de pasión culinaria, desbordada dentro y fuera de nuestras tierras bolivianas, esto infundio el anhelo de compartir la mesa y la conversación, el vino y el alma, los sabores que combinan y la certeza de los paladares que degustan la deliciosa comida que ofrece este exquisito restaurante. 
+          <br>
+        Este lugar está ubicado en la Calle Chuquisaca N° 688 esquina Calle Antezana. </p>
+    </div>
+   
+      <div class="formulario1">
+        <div>
+          <h2>Conversor </h2><br>
+        </div>
+        <div class="cant">
+          <label>Cantidad:</label> <input type="number" id="cantidad" min="0" max="1000" value="0" onchange="convertir()">
+        </div><br>
+        <div class="cd">
+          <label>Convertir De:</label>
+          <select id="de" onchange="convertir()">
+          <option value="1">Boliviano</option>
+          <option value="2">Dolar</option>
+          <option value="3">Euro</option>
+        </select> <br><br>
+        </div>
+        
+        <div class="ca">
+          <label>Convertir A:</label> 
+        <select id="a" onchange="convertir()">
+          <option value="1">Boliviano</option>
+          <option value="2">Dolar</option>
+          <option value="3">Euro</option>
+        </select> <br><br>
+        <h1 id="resultado"></h1>
+        
+        </div>
+       
+        
+      </div>  
+</section>
+<script src="js/funcionalidad.js"></script>
+</body>
+</html>
